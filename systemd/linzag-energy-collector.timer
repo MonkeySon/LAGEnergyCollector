@@ -1,0 +1,9 @@
+[Unit]
+Description=Regularly run Linz AG energy collector
+
+[Timer]
+OnCalendar=*-*-* 12:30,45,55:00
+Unit=linzag-energy-collector.service
+
+[Install]
+WantedBy=timers.target
