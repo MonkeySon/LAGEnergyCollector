@@ -1,0 +1,17 @@
+{
+    "imap": {
+        "server": "",
+        "port": 993,
+        "ssl": true,
+        "username": "",
+        "password": ""
+    },
+    "influxDB": {
+        "enabled": true,
+        "url": "",
+        "token": "",
+        "org": "",
+        "bucket": "",
+        "measurement": ""
+    }
+}
